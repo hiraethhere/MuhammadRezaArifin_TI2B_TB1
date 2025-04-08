@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reza</title>
+    <link rel="stylesheet" href="grid.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+</head>
+<body>
+    <nav class="custom-nav">
+        <nav class="nav-grid">
+            <a href="page2.html">Personal</a>
+            <a href="page3.html" style="text-decoration: underline;">Keluarga</a>
+            <span class="logo"><a href="index.html">Reza Arifin</a></span>
+            <a href="page4.html">Teman</a>
+            <a href="page5.html">Hobi</a>
+          </nav>
+          
+
+        <div class="hero" style="align-items:center; padding:0;">
+            <div class="img-wrapper" style="width: 900px;">
+            <img src="Image/Keluarga1.png" alt="" style="width: 100%">
+        </div>
+        </div>
+
+
+        <div style="margin:0px auto; padding:50px; background-color:#1f2fe0; color:white; text-align:center;">
+            <h1 style="padding-bottom:10px; font-size:40px">Keluargaku</h1>
+            <div class="grid-container">
+                <div class="content" style="text-align:center"> 
+                    <p>Saya memiliki keluarga yang berjumlah 4 orang yaitu Ayah, Ibu, Nadya (Adik Perempuan), dan Saya sendiri. Saya merupakan anak pertama dari dua bersaudara. Ayah saya bekerja sebagai guru SMK swasta dan Ibu saya seorang guru TPA. Adik saya saat ini masih duduk di bangku 6 SD. </p>
+                </div>
+            </div>
+        </div>
+
+        <div class="grid-container">
+            <div class="content" style="text-align:center; color:#1f2fe0">
+            <h1 style="font-size: 100px;"><span style="font-size: 200px;">4</span> People Is <span style="text-decoration: underline;"><i>Enough</i></span></h1>
+            </div>
+        </div>
+
+        <div style="margin:0px auto; padding:50px; color:#1f2fe0; text-align:center;">
+            <h1 style="padding-bottom:10px; font-size:40px">Keluarga Adalah Segalanya</h1>
+            <div class="grid-container">
+                <div class="content" style="text-align:center; color:#1f2fe0; font-size: 20px"> 
+                    <p>Keluarga saya selalu menjadi sumber semangat dan dukungan dalam setiap langkah hidup saya. Mereka menanamkan nilai tanggung jawab, kerja keras, dan saling menghargai sejak saya kecil. Mereka selalu mendukung apapun yang saya lakukan dan apapun jalan hidup yang saya pilih. Saya sangat bersyukur dan beruntung bisa dilahirkan dan dibesarkan oleh keluarga ini. </p>
+                </div>
+            </div>
+        </div>
+            
+
+        <div style="display:flex; margin:0 auto; text-align:justify; justify-content:center">
+            <div class="img-wrapper-gallery" style="height: 300px;">
+                <img src="Image/Fin2.jpg" alt="">
+            </div>
+            <div class="img-wrapper-gallery" style="height: 300px;">
+                <img src="Image/Fin6.jpg" alt="">
+            </div>
+            </div>
+         <div style="display:flex; margin:0 auto; text-align:justify; justify-content:center">
+            <div class="img-wrapper-gallery" style="height: 300px;">
+                <img src="Image/Fin5.jpg" alt="">
+            </div>
+            <div class="img-wrapper-gallery" style="height: 300px;">
+                <img src="Image/Fin3.jpg" alt="">
+            </div>
+            </div>
+        </div>
+
+        <div style="margin:0px auto; padding:60px; background-color:#1f2fe0; color:white;">
+            <div class="grid-container">
+                <div class="content" style="text-align:center;">
+                <h1 style="font-size: 65px;">Keluarga Adalah Tempat Untuk <span style="text-decoration: underline; font-size:100px"> <br><i>Pulang</i></span></h1>
+                </div>
+            </div>
+        </div>
+
+        <div class="svg-background-section" >
+        <div class="grid-container">
+            <div class="content-text">
+                <a href="page2.html">Personal</a>
+            </div>
+            <div class="content-text">
+                <a href="index.html">Profil</a>
+            </div>
+            <div class="content-text">
+                <a href="page4.html">Teman/Kerabat</a>
+            </div>
+            <div class="content-text">
+                <a href="page5.html">Hobi</a>
+            </div>
+        </div>
+    </div>
+
+    <footer class="footer">
+        <div class="footer-content">
+          <p>Feel free buat connect di media sosial :)</p>
+          <div class="socials">
+            <a href="https://facebook.com" target="_blank"><i class="fab fa-facebook-f"></i></a>
+            <a href="https://x.com/dabyourrface" target="_blank"><i class="fab fa-twitter"></i></a>
+            <a href="https://www.instagram.com/rezrfn/" target="_blank"><i class="fab fa-instagram"></i></a>
+            <a href="https://open.spotify.com/user/8tzvo7gxemjnhhutjdkp4ssju?si=42fd1cbf5a574373" target="_blank"><i class="fab fa-spotify"></i></a>
+          </div>
+        </div>
+      </footer>
+          
+<a href="#" class="scrollToTop"><i class="fas fa-chevron-up"></i></a>
+<script>
+    window.addEventListener('scroll', function() {
+      const scrollBtn = document.querySelector('.scrollToTop');
+      if (window.scrollY > 300) {
+        scrollBtn.style.display = "block";
+      } else {
+        scrollBtn.style.display = "none";
+      }
+    });
+    document.querySelector('.scrollToTop').addEventListener('click', function(e) {
+      e.preventDefault();
+      window.scrollTo({
+        top: 0,
+        behavior: 'smooth'
+      });
+    });
+  </script>
+  
+  <script>
+    window.onscroll = function() {scrollProgressBar()};
+    function scrollProgressBar() {
+      let winScroll = document.documentElement.scrollTop || document.body.scrollTop;
+      let height = document.documentElement.scrollHeight - document.documentElement.clientHeight;
+      let scrolled = (winScroll / height) * 100;
+      document.getElementById("myBar").style.width = scrolled + "%";
+    }
+  </script>
+
+  <div class="progress-container">
+    <div class="progress-bar" id="myBar"></div>
+  </div>
+  
+
+</body>
+</html>

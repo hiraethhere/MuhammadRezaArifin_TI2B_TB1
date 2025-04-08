@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reza</title>
+    <link rel="stylesheet" href="grid.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+</head>
+<body>
+    <nav class="custom-nav">
+        <nav class="nav-grid">
+            <a href="page2.html">Personal</a>
+            <a href="page3.html">Keluarga</a>
+            <span class="logo" style="text-decoration:underline; "><a href="index.html">Reza Arifin</a></span>
+            <a href="page4.html">Teman</a>
+            <a href="page5.html">Hobi</a>
+          </nav>
+          
+
+        <div class="hero" style="align-items:center; padding:0; color:#1B266C">
+            <div class="img-wrapper">
+                <h1 style="font-size: 250px;">REZA</h1>
+            <img src="Image/reza.png" alt="" style="width: 100%">
+        </div>
+        </div>
+
+
+        <div style="margin:0px auto; padding:50px; background-color:#1f2fe0; color:white; text-align:justify;">
+            <h1 style="padding-bottom:10px; padding-left:80px;">Introduksi</h1>
+            <div class="grid-container">
+                <div class="content"> 
+                    <p>Perkenalkan, nama saya Muhammad Reza Arifin. Saya lahir pada tanggal 10 Februari 2005 dan saat ini saya sedang menempuh pendidikan di Politeknik Negeri Jakarta (PNJ), Program Studi Teknik Informatika. Sejak kecil, saya sudah tertarik dengan dunia teknologi, dan seiring berjalannya waktu, minat tersebut berkembang menjadi ketertarikan khusus terhadap pemrograman, pengembangan aplikasi, serta sistem informasi. Saya senang mempelajari hal-hal baru, terutama yang berkaitan dengan inovasi digital dan solusi berbasis teknologi yang bisa membantu kehidupan sehari-hari.</p>
+                </div>
+                <div class="content">
+                    <p>Selain fokus pada perkuliahan dan pengembangan skill di bidang IT, saya juga memiliki hobi mendengarkan musik. Musik bagi saya bukan hanya hiburan, tapi juga sumber semangat dan inspirasi, terutama ketika sedang mengerjakan tugas atau proyek. Dengan kombinasi antara passion di bidang teknologi dan kecintaan terhadap musik, saya percaya diri untuk terus berkembang, beradaptasi, dan berkontribusi di dunia profesional nantinya.</p>
+                </div>
+            </div>
+        </div>
+
+        <div style="display:flex; margin:0px auto; text-align:justify;">
+            <div class="img-wrapper-gallery">
+                <img src="Image/Reza1.jpg" alt="">
+            </div>
+            <div class="img-wrapper-gallery">
+                <img src="Image/Reza2.jpg" alt="">
+            </div>
+            </div>
+
+        <div class="svg-background-section" >
+        <div class="grid-container">
+            <div class="content-text">
+                <a href="page2.html">Personal</a>
+            </div>
+            <div class="content-text">
+                <a href="page3.html">Keluarga</a>
+            </div>
+            <div class="content-text">
+                <a href="page4.html">Teman/Kerabat</a>
+            </div>
+            <div class="content-text">
+                <a href="page5.html">Hobi</a>
+            </div>
+        </div>
+        </div>
+
+        <footer class="footer">
+            <div class="footer-content">
+              <p>Feel free buat connect di media sosial :)</p>
+              <div class="socials">
+                <a href="https://facebook.com" target="_blank"><i class="fab fa-facebook-f"></i></a>
+                <a href="https://x.com/dabyourrface" target="_blank"><i class="fab fa-twitter"></i></a>
+                <a href="https://www.instagram.com/rezrfn/" target="_blank"><i class="fab fa-instagram"></i></a>
+                <a href="https://open.spotify.com/user/8tzvo7gxemjnhhutjdkp4ssju?si=42fd1cbf5a574373" target="_blank"><i class="fab fa-spotify"></i></a>
+              </div>
+            </div>
+          </footer>
+          
+<a href="#" class="scrollToTop"><i class="fas fa-chevron-up"></i></a>
+<script>
+    window.addEventListener('scroll', function() {
+      const scrollBtn = document.querySelector('.scrollToTop');
+      if (window.scrollY > 300) {
+        scrollBtn.style.display = "block";
+      } else {
+        scrollBtn.style.display = "none";
+      }
+    });
+    document.querySelector('.scrollToTop').addEventListener('click', function(e) {
+      e.preventDefault();
+      window.scrollTo({
+        top: 0,
+        behavior: 'smooth'
+      });
+    });
+  </script>
+  
+  <script>
+    window.onscroll = function() {scrollProgressBar()};
+    function scrollProgressBar() {
+      let winScroll = document.documentElement.scrollTop || document.body.scrollTop;
+      let height = document.documentElement.scrollHeight - document.documentElement.clientHeight;
+      let scrolled = (winScroll / height) * 100;
+      document.getElementById("myBar").style.width = scrolled + "%";
+    }
+  </script>
+
+  <div class="progress-container">
+    <div class="progress-bar" id="myBar"></div>
+  </div>
+  
+
+</body>
+</html>
